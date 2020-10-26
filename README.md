@@ -5,3 +5,11 @@ However, In the real application, the node previously searched is more likely to
 Tango tree makes use of this property in a different way.  In the following discussion, we will bring in two trees: static tree P and tango tree T. 
 P is the normal BST, not necessarily balanced. P does not appear in the code and is just for simplification of understanding. We do not store P.
 T is the tango tree we need to manipulate, and T is a reconstructed version of P. The operation such as “cut” is complicated in T but simple in P. we will first discuss these operations in P and then generalize them to T.
+
+Below shows an example of clustering of tree P.
+
+![Picture1](https://user-images.githubusercontent.com/31739574/97135377-13963180-171e-11eb-95cb-2d5417ea3f53.png)
+
+Two operations (cut, join) related to this process:
+
+![Picture2](https://user-images.githubusercontent.com/31739574/97135399-227ce400-171e-11eb-993d-695fda34ccf2.png)
